@@ -87,21 +87,21 @@ img {
   
   .container{
       background-color: #f2f2cd;
-      width: 420px;
+      /* width: 420px; */
     }
 
     img {
       height: 100px;
     }
  
-
     #lezioni .row > .left,
     #lezioni .row > .right{
       float: none;
       width: 100%;
     }
   
-    #lezioni .row {
+    #lezioni .row,
+    #steps .row {
       width: 100%;
       text-align: center;
       margin-top: 0 ;
@@ -110,4 +110,17 @@ img {
     *:not(h3,h1) {
       font-size: 12px;
     }
+
+    /* steps */
+
+    .container.grey {
+      background-color: white;
+    } 
+
+    #steps .row>.left,
+    #steps .row>.central,
+    #steps .row>.right {
+      float: none;
+      width: 100%;
+}
 }
