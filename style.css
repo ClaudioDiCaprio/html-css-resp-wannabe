@@ -78,7 +78,14 @@ img {
 
 /* WORKED_OUT */
 @media screen and (max-width: 420px) {
-    .container{
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+  }
+  
+  .container{
       background-color: #f2f2cd;
       width: 420px;
     }
@@ -95,8 +102,12 @@ img {
     }
   
     #lezioni .row {
-      width: 90%;
+      width: 100%;
       text-align: center;
+      margin-top: 0 ;
     }
     
+    *:not(h3,h1) {
+      font-size: 12px;
+    }
 }
